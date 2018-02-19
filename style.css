@@ -2,7 +2,6 @@
     font-size:18px;
     font-family:Arial;
     width:495px;
-    background-color:#777;
     color:"#ebebeb";
     text-align:center;
     body:950px;
@@ -12,20 +11,24 @@
     
 }    
 #header{
+    background-color:#777;
     
     
 }
 #nav{
+    background-color:#777;
 
 }
 #section{
-
+    background-color:#777;
 }
 #aside{
     float:right;
     padding:30px;
+    background-color:#777;
 
 }
 #footer{
+    background-color:#777;
 
 }
