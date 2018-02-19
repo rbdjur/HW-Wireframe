@@ -1,12 +1,29 @@
-<head>
-<style>
+.all{
+    font-size:18px;
+    font-family:Arial;
+    width:495px;
+    background-color:#777;
+    color:"#ebebeb";
+    text-align:center;
+    body:950px;
+}
 
-.body{
-    background-color:#777
+#body{
+    
+}    
+#header{
+    
+    
 }
-.content{
-    background-color:#ebebeb
+#nav{
+
 }
-.header{
-    text-align:center
+#section{
+
+}
+#aside{
+
+}
+#footer{
+
 }
