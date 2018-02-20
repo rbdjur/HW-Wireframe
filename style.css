@@ -3,17 +3,16 @@
     font-family:Arial;
     width:495px;
     text-align:center;
-    body:950px;
+    zoom:950px;
 }
 
-.body{
-    background-color:#777;
+body{
+    background-color:rgba(119, 119, 119, 0);
     
 }    
 #header{
     background-color:#ebebeb;
-    
-    
+      
 }
 #nav{
     background-color:#ebebeb;
@@ -26,9 +25,10 @@
     float:right;
     padding:30px;
     background-color:#ebebeb;
+    width:200px;
+    height:200px;
 
 }
 #footer{
     background-color:#ebebeb;
-
 }
