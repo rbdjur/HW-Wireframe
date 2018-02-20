@@ -12,23 +12,63 @@ body{
 }    
 #header{
     background-color:#ebebeb;
-      
+    height:75px;
+    width:1000px;
+    padding:20px;
+    margin:20px;
+    opacity:50%;
 }
+      
 #nav{
     background-color:#ebebeb;
+    height:75px;
+    width:1000px;
+    padding:20px;
+    margin:20px;
+}
 
-}
-#section{
+#section-side-section{
     background-color:#ebebeb;
+    height:75px;
+    width: 1000px;
+    padding: 20px;
+    margin: 20px;
+    column: 50.0%;
+    
 }
-#aside{
-    float:right;
+
+column{
+    float: left;
+    padding:20px;
+    column: 50.0%;
+}
+
+
+
+section{
+    background-color:#ebebeb;
+    float:left;
     padding:30px;
     background-color:#ebebeb;
     width:200px;
     height:200px;
+    <!-- need to fix the seperation between sction and aisde -->
+}
+aside{
+    float:right;
+    padding:30px;
+    background-color:#ebebeb;
+    width:100px;
+    height:100px;
+    <!-- need to fix the seperation between sction and aisde -->
 
 }
 #footer{
     background-color:#ebebeb;
+    height:30px;
+    width:100%;
+    position:absolute;
+    bottom:0px;
+    padding:20px;
+    margin:20px;
 }
