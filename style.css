@@ -7,8 +7,7 @@
 }
 
 body{
-    background-color:rgba(119, 119, 119, 0);
-    
+    background-color:#777;
 }    
 #header{
     background-color:#ebebeb;
@@ -19,56 +18,59 @@ body{
     opacity:50%;
 }
       
-#nav{
+#nav {
     background-color:#ebebeb;
     height:75px;
     width:1000px;
     padding:20px;
     margin:20px;
-}
+    }
 
-#section-side-section{
-    background-color:#ebebeb;
-    height:75px;
-    width: 1000px;
-    padding: 20px;
-    margin: 20px;
-    column: 50.0%;
-    
-}
-
-column{
-    float: left;
-    padding:20px;
-    column: 50.0%;
-}
-
-
-
-section{
+#section{
     background-color:#ebebeb;
     float:left;
-    padding:30px;
-    background-color:#ebebeb;
-    width:200px;
-    height:200px;
-    <!-- need to fix the seperation between sction and aisde -->
-}
-aside{
-    float:right;
-    padding:30px;
-    background-color:#ebebeb;
-    width:100px;
+    width:400px;
     height:100px;
-    <!-- need to fix the seperation between sction and aisde -->
+    text-align:center;
+    padding:20px;
+    margin:20px;
+}    
 
+#aside{
+    background-color:#ebebeb;
+    float:right;
+    width:400px;
+    height:100px;
+    text-align:center;
+    padding:20px;
+    margin:20px;
 }
+
+#article{
+    background-color:#ebebeb;
+    float:left;
+    width:200px;
+    height:100px;
+    text-align:center;
+    padding:20px;
+    margin:20px;
+}
+
 #footer{
     background-color:#ebebeb;
     height:30px;
-    width:100%;
-    position:absolute;
-    bottom:0px;
+    width:1000px;
     padding:20px;
     margin:20px;
+    position:fixed;
+    bottom:0;
+}
+
+#section{
+    background-color:#ebebeb;
+    height:200px;
+    width:500px;
+    padding:20px;
+    margin:20px;
+
 }
