@@ -4,6 +4,8 @@
     width:495px;
     text-align:center;
     zoom:950px;
+
+    <!-- Ask for help on how this will affect visibility on actual web page -->
 }
 
 body{
@@ -11,8 +13,9 @@ body{
 }    
 #header{
     background-color:#ebebeb;
+    color:#777;
     height:75px;
-    width:1000px;
+    width:960px;
     padding:20px;
     margin:20px;
     opacity:50%;
@@ -20,66 +23,103 @@ body{
       
 #nav {
     background-color:#ebebeb;
+    color:#777;
     height:75px;
-    width:1000px;
+    width:960px;
     padding:20px;
     margin:20px;
     }
 
 #section{
     background-color:#ebebeb;
+    color:#777;
     float:left;
-    width:400px;
+    width:350px;
     height:100px;
     text-align:center;
     padding:20px;
     margin:20px;
+    text-align:center;
 }    
 
 #aside{
     background-color:#ebebeb;
-    float:right;
-    width:400px;
-    height:100px;
+    color:#777;
+    float:left;
+    width:465px;
+    height:280px;
     text-align:center;
     padding:20px;
     margin:20px;
+    position:relative;
+    right:35px;
+    border: 2px solid red;
 }
 
 #article{
-    background-color:#ebebeb;
+    background-color:#777;
+    color:#ebebeb;
     float:left;
-    width:200px;
-    height:100px;
+    width:400px;
+    height:225px;
     text-align:center;
-    padding:20px;
+    padding:10px;
     margin:20px;
+    border: 2px solid red;
+    position:relative;
+    z-index:1;
+    bottom:25px;
 }
 
 #section{
     background-color:#ebebeb;
-    height:200px;
-    width:500px;
-    padding:20px;
+    height:300px;
+    width:495px;
+    padding:10px;
     margin:20px;
     float:left;
+    border: 2px solid red;
 }
 
 #headers123{
-
-
+    background-color:#ebebeb;
+    color:#777;
+    font-weight:10 <!--bold this-->;
+    float:left;
+    height: 50px;
+    width: 300px;
+    padding:10px;
+    margin:20px;
+    border: 2px solid red;
+    z-index:2;
+    bottom: 275px;
+    left:50px;
+    position:relative;
 }
 
 #p{
-
+    background-color:#ebebeb;
+    color:#777;
+    float:left;
+    border: 2px solid red;
+    height:50px;
+    width:300px;
+    padding:10px;
+    margin:20px;
+    z-index:2;
+    position:relative;
+    bottom:300px;
+    left:50px;
 }
 
 #footer{
     background-color:#ebebeb;
     height:30px;
-    width:1000px;
+    width:960px;
     padding:20px;
     margin:20px;
-    position:fixed;
-    bottom:0;
+    position:absolute;
+    bottom:-125px;
+    border: 1px solid red;
+
 }
