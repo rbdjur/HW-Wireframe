@@ -1,15 +1,13 @@
 .all{
     font-size:18px;
     font-family:Arial;
-    width:495px;
+    width:100%;
     text-align:center;
-    zoom:950px;
-
-    <!-- Ask for help on how this will affect visibility on actual web page -->
 }
 
 body{
     background-color:#777;
+    width:100%;
 }    
 #header{
     background-color:#ebebeb;
@@ -18,7 +16,6 @@ body{
     width:960px;
     padding:20px;
     margin:20px;
-    opacity:50%;
 }
       
 #nav {
@@ -34,25 +31,26 @@ body{
     background-color:#ebebeb;
     color:#777;
     float:left;
-    width:350px;
-    height:100px;
+    width:520px;
+    height:280px;
     text-align:center;
     padding:20px;
     margin:20px;
     text-align:center;
+    border: 2px solid red;
 }    
 
 #aside{
     background-color:#ebebeb;
     color:#777;
-    float:left;
-    width:465px;
+    float:right;
     height:280px;
     text-align:center;
+    width:375px;
     padding:20px;
     margin:20px;
     position:relative;
-    right:35px;
+    right:240px;
     border: 2px solid red;
 }
 
@@ -68,17 +66,8 @@ body{
     border: 2px solid red;
     position:relative;
     z-index:1;
-    bottom:25px;
-}
-
-#section{
-    background-color:#ebebeb;
-    height:300px;
-    width:495px;
-    padding:10px;
-    margin:20px;
-    float:left;
-    border: 2px solid red;
+    bottom:5px;
+    left:28px;
 }
 
 #headers123{
@@ -86,15 +75,15 @@ body{
     color:#777;
     font-weight:10 <!--bold this-->;
     float:left;
-    height: 50px;
-    width: 300px;
+    height:50px;
+    width:300px;
     padding:10px;
     margin:20px;
     border: 2px solid red;
     z-index:2;
-    bottom: 275px;
-    left:50px;
+    bottom: 235px;
     position:relative;
+    left:77px;
 }
 
 #p{
@@ -108,18 +97,17 @@ body{
     margin:20px;
     z-index:2;
     position:relative;
-    bottom:300px;
-    left:50px;
+    bottom:250px;
+    left:77px;
 }
 
 #footer{
     background-color:#ebebeb;
-    height:30px;
     width:960px;
     padding:20px;
     margin:20px;
     position:absolute;
-    bottom:-125px;
+    bottom:-240px;
     border: 1px solid red;
 
 }
