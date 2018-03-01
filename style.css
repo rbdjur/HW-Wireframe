@@ -37,21 +37,19 @@ body{
     padding:20px;
     margin:20px;
     text-align:center;
-    border: 2px solid red;
 }    
 
 #aside{
     background-color:#ebebeb;
     color:#777;
-    float:right;
+    float:left;
     height:280px;
     text-align:center;
-    width:375px;
+    width:380px;
     padding:20px;
     margin:20px;
     position:relative;
-    right:240px;
-    border: 2px solid red;
+    right:25px;  
 }
 
 #article{
@@ -61,27 +59,24 @@ body{
     width:400px;
     height:225px;
     text-align:center;
-    padding:10px;
+    padding:20px;
     margin:20px;
-    border: 2px solid red;
     position:relative;
     z-index:1;
-    bottom:5px;
+    bottom:15px;
     left:28px;
 }
 
 #headers123{
     background-color:#ebebeb;
     color:#777;
-    font-weight:10 <!--bold this-->;
     float:left;
     height:50px;
     width:300px;
     padding:10px;
     margin:20px;
-    border: 2px solid red;
     z-index:2;
-    bottom: 235px;
+    bottom: 260px;
     position:relative;
     left:77px;
 }
@@ -90,24 +85,24 @@ body{
     background-color:#ebebeb;
     color:#777;
     float:left;
-    border: 2px solid red;
     height:50px;
     width:300px;
     padding:10px;
     margin:20px;
     z-index:2;
     position:relative;
-    bottom:250px;
+    bottom:275px;
     left:77px;
 }
 
 #footer{
     background-color:#ebebeb;
     width:960px;
+    height:35px;
     padding:20px;
     margin:20px;
-    position:absolute;
-    bottom:-240px;
-    border: 1px solid red;
+    position: absolute;
+    bottom:-390px;
+    color:#777;
 
 }
